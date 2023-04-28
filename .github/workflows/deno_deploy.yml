@@ -1,32 +1,22 @@
-name: Publish on Deno Deploy
-
-on:
-  push:
-    branches: [ master ]
+name: Deploy
+on: [push]
 
 jobs:
-  build:
+  deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
-      contents: read
+      id-token: write # Needed for auth with Deno Deploy
+      contents: read # Needed to clone the repository
 
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Setup Deno environment
-        uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
+      # TODO: add a build step here
 
-      - name: Build site
-        run: |
-          deno task build --location=https://lume-blog.deno.dev
-
-      - name: Deploy to Deno Deploy
+      - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: lume-blog
-          import-map: "./import_map.json"
-          entrypoint: server.ts
+          project: "sami-badawi-github-io"
+          entrypoint: "./main.ts" # TODO: update entrypoint

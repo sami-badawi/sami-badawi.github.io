@@ -5,6 +5,7 @@ date: 2018-08-24
 pinned: true
 tags:
   - second-tag
+draft: true
 ---
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews.

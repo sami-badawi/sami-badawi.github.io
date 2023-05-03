@@ -9,7 +9,7 @@ menu:
 
 ![Sami Badawi](/img/sami_badawi_2023_small.jpg)
 
-<em>Sami Badawi, code, data and math.</em>
+<em>Sami Badawi's thoughts on code, data and ML</em>
 
 Programming language aficionado. 
 

@@ -9,11 +9,11 @@ menu:
 
 ![Sami Badawi](/img/sami_badawi_2023_small.jpg)
 
-**Sami Badawi**
+## Sami Badawi
 
 _Programming language aficionado_
 
-**My thoughts on Code, Data and ML**
+#### My thoughts on Code, Data and ML ####
 
 Big data, GIS, computer vision, NLP and category theory, etc., ...
 

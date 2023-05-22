@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://sami-badawi.github.io/sitemap.xml

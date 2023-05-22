@@ -9,7 +9,7 @@ tags:
 
 # Languages Evolution with Poetic License
 
-Looking at language everlution over many years I lost count of how many times I feel in love with a new language and thought this was the untimate language.
+Looking at language evolution over many years I lost count of how many times I fell in love with a new language and thought this was the ultimate language.
 
 Here are my initial impressions for some mainstream languages that I really liked:
 
